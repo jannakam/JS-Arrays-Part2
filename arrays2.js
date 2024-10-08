@@ -111,15 +111,7 @@ function secondHalfOfArrayIfItIsEven(fruits) {
 
 // To check our work
 console.log(secondHalfOfArrayIfItIsEven(["apple", "orange", "banana", "kiwi"]));
-console.log(
-  secondHalfOfArrayIfItIsEven([
-    "apple",
-    "orange",
-    "banana",
-    "kiwi",
-    "blueberry",
-  ])
-);
+console.log(secondHalfOfArrayIfItIsEven(["apple", "orange", "banana", "kiwi", "blueberry"]));
 
 // CHALLENGE 2
 
