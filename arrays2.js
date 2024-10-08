@@ -62,8 +62,8 @@ console.log(isArrayLengthEven([1, 2, 3, 4]));
  */
 function addLailaToArray(instructors) {
   // Your code here
-  instructors.push("Laila");
-  return instructors;
+  instructorsNew = instructors.concat("Laila");
+  return instructorsNew;
 }
 
 // To check our work
